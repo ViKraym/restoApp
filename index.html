@@ -10,12 +10,12 @@
      
             <div class="dostavka">Бесплатная доставка от 1 000 ₽</div>
       
-        <div class="header">
+        <section class="header">
             
             <div id="logo" class="logo">
-                <!-- RestoApp -->
                  <img class="logo-img" src="/Assets/Group - logo.svg" alt="RestoApp">
             </div>
+
             <nav>
                 <ul>
                     <a href="#menu"><li>Меню</li></a>
@@ -25,12 +25,18 @@
                     <a href="#"><li>Зоны доставки</li></a>
                 </ul>
             </nav>
+            
             <div>
-                    <div class="contact">+0 (123) 456 78-90  <p>Прием заказов с 10:00 до 22:40</p></div>
-                    <img class="user-page" src="/Assets/user-02.svg" alt="userpage">
-                    <img class="basket" src="/Assets/basket.svg" alt="basket">
-                
+                    <div class="contact-header">
+                        <p>+0 (123) 456 78-90 </p> 
+                        <span class="time-work-header"><p>Прием заказов с 10:00 до 22:40</p></span></div>
+                   
             </div>
+         <div>
+                 <img class="user-page" src="/Assets/user-02.svg" alt="userpage">
+                <img class="basket" src="/Assets/basket.svg" alt="basket">
+         </div>
+            </section>
         </div>
     </header>
     <main>
@@ -120,8 +126,9 @@
                     <p class="cost">660 ₽</p>
                 </div>
 
-                <div class="popular-box">
+                <div class="popular-box notification">
                     <img src="/images/gorgonzola.png" alt="">
+                    <span class="badge"><img src="/Assets/Badges.svg" alt=""></span> 
                     <p class="name-product">Груша Горгонзола</p>
                     <p class="title-product">Нежная пицца на основе сливочного соуса с сыром горгондзола, грушей, медом и кедровыми орехами</p>
                     <p class="cost">780 ₽</p>
@@ -136,8 +143,10 @@
                     <p class="cost">490 ₽</p>
                 </div>
 
-                <div class="popular-box">
+                <div class="popular-box notification">
                     <img src="/images/Tom_Yam.png" alt="">
+                    <span class="badge"><img src="/Assets/seafood.svg" alt=""></span>
+                    <span class="badge2"><img src="/Assets/sharp.svg" alt=""></span>
                     <p class="name-product">Том Ям с морепродуктами</p>
                     <p class="title-product">Традиционный тайский суп, на основе кокосового молока и сливок, с добавлением креветок, кальмаров, 
                         грибов шиитаке и шампиньонов, помидоров черри и свежей зелени. Подаётся с паровым тайским рисом</p>
@@ -153,16 +162,18 @@
 
            <div class="list-stocks wrapper-stocks">
 
-                 <div class="stocks-box box1">
+                 <div class="stocks-box notification imgWrap-w" >
+                    <span class="badge-sale"><p>Скидка 10%</p></span>
                     <img class="w-img" src="/images/platina.png" alt="">
-                    <p><span>Статус «Platina» привилегированным клиентам</span></p>
-                    <p class="sale"><span>Скидка 10%</span></p>
+                    <p><span class="stocks-title">Статус «Platina» привилегированным клиентам</span></p>
+                    
                 </div>
 
-                <div class="stocks-box box2">
+                <div class="stocks-box notification imgWrap-w">
+                    <span class="badge-sale"><p>Скидка 5%</p></span>
                     <img class="w-img" src="/images/pokupki.png" alt="">
-                    <p><span>Скидка на все покупки при регистрации</span></p>
-                    <p class="sale"><span>Скидка 5%</span></p>
+                    <p><span class="stocks-title">Скидка на все покупки при регистрации</span></p>
+                    
                 </div>
            </div>
 
@@ -176,18 +187,22 @@
 
            <div class="list-events wrapper-stocks">
 
-                 <div class="events-box box1">
+                 <div class="events-box notification imgWrap-w">
+                    <span class="badge-sale"><p>27 января</p></span>
+                    <span class="badge-sale2"><p>В 21:00</p></span>
+                    <span class="badge-event"><p>Скоро</p></span>
                     <img class="w-img" src="/images/event-1.png" alt="">
                     <p class="event-title"><span>Первый в этом году Stand-Up</span></p>
-                    <p class="time"><span>27 января</span></p>
-                    <p class="time2"><span>В 21:00</span></p>
+                   
                 </div>
 
-                <div class="events-box box2">
+                <div class="events-box notification imgWrap-w">
+                    <span class="badge-sale"><p>21 января</p></span>
+                    <span class="badge-sale2"><p>Скидка 20%</p></span>
+                    <span class="badge-event-end"><p>Завершено</p></span>
                     <img class="w-img" src="/images/event-2.png" alt="">
                     <p class="event-title"><span>День рождения в «Гастроцех»</span></p>
-                    <p class="time"><span>21 января</span></p>
-                    <p class="time2"><span>Скидка 20%</span></p>
+                    
                 </div>
            </div>
            <p class="event-button"><a href="">Все события</a></p>
@@ -200,18 +215,21 @@
 
            <div class="list-events wrapper-stocks">
 
-                 <div class="events-box box1">
+                 <div class="events-box imgWrap-w">
+                    <span class="badge-sale"><p>Открыт еще 1 ч 20 мин</p></span>
+                    <span class="badge-sale3"><p>с 10:00 до 23:00</p></span>
+                    <span class="badge-event-open"><p>Открыто</p></span>
                     <img class="w-img" src="/images/fudkot.png" alt="">
                     <p class="event-title"><span>Фудкорт — Кафе «Гастроцех»</span></p>
-                    <p class="time"><span>Открыт еще 1 ч 20 мин</span></p>
-                    <p class="time2"><span>с 10:00 до 23:00</span></p>
+                    
                 </div>
 
-                <div class="events-box box2">
+                <div class="events-box imgWrap-w">
+                    <span class="badge-sale"><p>Открыт еще 1 ч 20 мин</p></span>
+                    <span class="badge-sale3"><p>с 10:00 до 23:00</p></span>
+                    <span class="badge-event-close"><p>Закрыто</p></span>
                     <img class="w-img" src="/images/gastroceh.png" alt="">
                     <p class="event-title"><span>«Гастроцех» Пицца</span></p>
-                    <p class="time"><span>Открыт еще 1 ч 20 мин</span></p>
-                    <p class="time2"><span>с 10:00 до 23:00</span></p>
                 </div>
            </div>
             
@@ -220,5 +238,66 @@
 
 
     </main>
+    <footer>
+     
+            
+      
+        <div class="footer">
+            
+             <section class="top-line">
+                    <div class="contact">
+                        +0 (123) 456 78-90  
+                        
+                        <span class="time-work"><p>Прием заказов с 10:00 до 22:40</p></span>
+                    
+                    </div>
+                    <div>
+                        <img class="social" src="/Assets/tg.svg" alt="tg">
+                        <img class="social" src="/Assets/vk.svg" alt="vk">
+                        <img class="social" src="/Assets/whats.svg" alt="whats">
+                    </div>
+            </section>
+
+           <section class="meddle-line">
+                <div id="logo2" class="logo2">
+                     <img class="logo-img" src="/Assets/Container - logo.svg" alt="RestoApp">
+                </div>
+                <nav>
+                    <ul class="footer-menu">
+                        <a href="#menu"><li>Меню</li></a>
+                        <a href="#stocks"><li>Акции</li></a>
+                        <a href="#"><li>О нас</li></a>
+                        <a href="#events"><li>События</li></a>
+                        <a href="#"><li>Зоны доставки</li></a>
+                    </ul>
+                </nav>
+               <div>
+                            <img class="app-load" src="/Assets/app-store.svg" alt="tg">
+                            <img class="app-load" src="/Assets/google-play.svg" alt="vk">
+                </div>
+           </section>
+
+             <section class="bottom-line">
+                <div id="ps" class="ps">Copyright 2024</div>
+                <nav>
+                    <ul class="footer-menu2">
+                        <a href="#"><li>Условия оплаты, получения и возврата</li></a>
+                        <a href="#"><li>Политика обработки персональных данных</li></a>
+                        <a href="#"><li>Согласие на обработку персональных данных</li></a>
+                    </ul>
+                </nav>
+               <div>
+                            <img class="icon-pay" src="/Assets/visa.svg" alt="tg">
+                            <img class="icon-pay" src="/Assets/mscard.svg" alt="vk">
+                            <img class="icon-pay" src="/Assets/mirpay.svg" alt="vk">
+                </div>
+           </section>
+        
+        </div>
+           <hr>
+        <div class="PREAX">Проект выполнен в рамках стажировки <a href="">PREAX</a></div>
+        
+    </footer>
+    
 </body>
 </html>
