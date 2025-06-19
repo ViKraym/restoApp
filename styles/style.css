@@ -18,12 +18,12 @@ body{
 }
 
 .header{
-     margin: auto;
+    margin: auto;
     padding: auto;
     max-width: 1440px;
     box-sizing: border-box;
     background-color:#F9C201 ;
-    width: 100%;
+    width: 1440px;
     height: auto;
     display: flex;
     flex-direction:row;
@@ -123,17 +123,16 @@ a {
 
 
 main {
-    
+    width: 1300px;
     margin: auto;
     padding: auto;
-    width: 1300px;
     align-items: center;
 }
 
 section {
 margin: auto;
     padding: auto;
-    margin: 1%;
+    
 }
 
 h1 {
@@ -461,7 +460,7 @@ main img {
 }
 
 footer {
-    max-width: 1440px;
+    width: 1440px;
     background-color:rgba(28, 28, 28, 1) ;
     /* padding: 0 120px 0 120px; */
     /* margin: 70px 0 0 0; */
