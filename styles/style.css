@@ -185,14 +185,16 @@ h1 {
 
 
 main img {
+
     height: 304px;
     width: 304px;
     border-radius: 16px;
 }
 
 .w-img{
-    height: 304px;
-    width: 304px;
+    height: 100%;
+    width: 100%;
+   
     border-radius: 16px;
 }
 
@@ -201,6 +203,7 @@ main img {
 .notification {  
     position: relative;  
     display: inline-block;  
+   
 }  
 
 .badge {  
@@ -357,6 +360,10 @@ main img {
             z-index: 2;
             }
 
+
+            .stocks-box {
+          
+            }
 
              
 
