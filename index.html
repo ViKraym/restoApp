@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RestoApp</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script src="/scripts/main.js"></script>
+   
 <body>
     <header>
 
-        <aside class="delivery">
+        <aside id="delivery" class="delivery">
             Бесплатная доставка от 1 000 ₽
-            <button class="close-delivery-box">X</button>
+             <button id="hideButton" class="hideButton">X</button>
         </aside>
+       
 
         <div class="header">
 
@@ -21,7 +22,7 @@
                 <img class="logo-img" src="assets/Group - logo.svg" alt="RestoApp">
             </div>
 
-            <nav>
+            <nav class="navMenu" id="navMenu">
                 <ul>
                     <a href="#menu">
                         <li>Меню</li>
@@ -366,7 +367,7 @@
         <div class="PREAX">Проект выполнен в рамках стажировки <a href="">PREAX</a></div>
 
     </footer>
-
+ <script src="/scripts/main.js"></script>
 </body>
 
 </html>
