@@ -12,6 +12,10 @@ body {
     width: 100%;
 }
 
+.close-delivery-box{
+    display: block;
+}
+
 .header {
     margin: auto;
     padding: auto;
