@@ -41,6 +41,7 @@ h1 {
     font-weight: 600;
     line-height: 24px;
     text-align: center;
+    min-width: 1440px;
 
 }
 
@@ -57,14 +58,15 @@ h1 {
 } 
 
 .header {
-    display: inline-block;
+    display: flex;
     align-items: center;
-    vertical-align: middle;
-     margin: auto;
+    justify-content: center;
+    white-space: nowrap;
+    margin: auto;
     padding: auto;
     box-sizing: border-box;
     background-color: #F9C201;
-    width: 100%;
+    max-width: 100%;
     min-width: 1440px;
     min-height: 80px;
 }
@@ -93,6 +95,7 @@ address {
 }
 
 .contact-header {
+    white-space: normal;
     text-align: right;
     max-width: 188px;
     display: inline-block;
