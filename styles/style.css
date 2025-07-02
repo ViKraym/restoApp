@@ -60,7 +60,7 @@ h1 {
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     white-space: nowrap;
     margin: auto;
     padding: auto;
@@ -71,21 +71,39 @@ h1 {
     min-height: 80px;
 }
 
-.navMenu {
+.navMenu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
     min-width: 433px;
     min-height: 40px;
 }
 
-#navMenu li {
+.navMenu li {
     font-family: "inter";
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
+    
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 0 20px 0 20px;
 }
 
 address {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     color: rgba(85, 85, 85, 1);
     font-size: 18px;
     margin-right: 0;
@@ -99,6 +117,31 @@ address {
     text-align: right;
     max-width: 188px;
     display: inline-block;
+}
+
+.contact-footer {
+    white-space: normal;
+    text-align: left;
+    max-width: 188px;
+    display: inline-block;
+}
+
+.address-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    color: rgba(85, 85, 85, 1);
+    font-size: 18px;
+    margin-right: 0;
+    font-style: normal;
+    min-width: 380px;
+    min-height: 48px;
+}
+
+
+.colortext li a{
+    color: #fff;
 }
 
 time {
@@ -150,13 +193,7 @@ padding-left: 16px;
 }
 
 
-div,
-nav,
-ul,
-li {
-    display: inline-block;
-    margin: 0 20px 0 20px;
-}
+
 
 a {
     text-decoration: none;
@@ -167,24 +204,31 @@ a {
 
 /* начало стилей секции menu */
 .menu {
+    max-width: 1440px;
     position: relative;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    align-items: center;
-}
-
-.list-menu-box {
-    width: 1440px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    padding: 0 ;
+    margin: 0 ;
+    
 }
 
+.list-menu-box ol{
+    display: flex;
+   flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
 .menu-element {
-    padding: auto;
-    /* margin: 0 20px 0 20px; */
+    margin: 0;
+    padding: 25px;
+   list-style-type: none;
 }
 
 .product-name  {
@@ -202,6 +246,7 @@ a {
 }
 
 .list-popular{
+    
     white-space: nowrap;
 }
 
@@ -210,13 +255,15 @@ a {
 /* начало стилей секции events */
 .list-new-product{
     white-space: nowrap;
+    margin: 0;
+    padding: 0;
 }
 
 
 .w-img {
     min-width: 640px;
     min-height: 360px;
-
+   
     border-radius: 16px;
 }
 
@@ -303,6 +350,7 @@ main img {
 .notification {
     position: relative;
     display: inline-block;
+    margin: 0 20px 0 20px;
 
 }
 
@@ -406,18 +454,29 @@ main img {
 
 /* конец стили бейджа */
 
+.w {
+    margin-right: 100px;
+}
 
 
 
+.list-events {
+   
+    
 
+}
 
+.event-box {
+    
+}
 
-.events-box>.event-title {
+.event-title {
     position: relative;
     top: -80px;
     font-size: 24px;
     color: #fff;
     margin-left: 16px;
+    padding-right: 50px;
     width: 100%;
     font-weight: 600;
     z-index: 2;
@@ -427,7 +486,7 @@ main img {
 
     width: 98%;
     padding: 15px;
-    margin-top: 30px;
+    margin-top: -30px;
     text-align: center;
     border: 2px solid black;
     border-radius: 16px;

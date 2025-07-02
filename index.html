@@ -40,11 +40,10 @@
             <nav class="navMenu" id="navMenu">
                 <ul>
                     <li><a href="#menu">Меню</a></li>
-                    <li><a href="#stocks">Акции</a></li>
-                    <li><a href="#">О нас</a></li>
+                    <li><a href="#stock">Акции</a></li>
+                    <li><a href="#FAQ">О нас</a></li>
                     <li><a href="#events">События</a></li>
-                    <li><a href="#">Зоны доставки</a></li>
-                    <li><a href="indexOld.html">Ранняя версия страницы</a></li>    
+                    <li><a href="#">Зоны доставки</a></li> 
                 </ul>
             </nav>
 
@@ -62,36 +61,33 @@
                    </div>
                 </address>          
 
-            
-
         </div>
     </header>
 
     
     <main>
         <section id="menu" class="menu">           
-           <h1>Меню</h1>
+            <h1>Меню</h1> 
             <div class="list-menu-box">
-            
-                <ol>
-                    
-                    <li class="menu-element">
-                        <a href="#" class="imgWrap"><img src="assets/images/pizza.webp" alt="pizza"></a>
-                        <h3><span class="product-name">Пицца</span></h3>
-                    </li>
-                    <li class="menu-element">
-                        <a href="#" class="imgWrap"><img src="assets/images/supiy.webp" alt="soup"></a>
-                        <h3><span class="product-name">Супы</span></h3>
-                    </li>
-                    <li class="menu-element">
-                        <a href="#" class="imgWrap"><img src="assets/images/hot.webp" alt="gotDishes"></a>
-                        <h3><span class="product-name">Горячие блюда</span></h3>
-                    </li>
-                    <li class="menu-element">
-                        <a href="#" class="imgWrap"><img src="assets/images/salat.webp" alt="salads"></a>
-                        <h3><span class="product-name">Салаты</span></h3>
-                    </li>
-                </ol>
+                    <ol>
+                        <li class="menu-element ">
+                            <a href="#" class="imgWrap"><img src="assets/images/pizza.webp" alt="pizza"></a>
+                            <h3><span class="product-name">Пицца</span></h3>
+                        </li>
+                        <li class="menu-element ">
+                            <a href="#" class="imgWrap"><img src="assets/images/supiy.webp" alt="soup"></a>
+                            <h3><span class="product-name">Супы</span></h3>
+                        </li>
+                        <li class="menu-element ">
+                            <a href="#" class="imgWrap"><img src="assets/images/hot.webp" alt="gotDishes"></a>
+                            <h3><span class="product-name">Горячие блюда</span></h3>
+                        </li>
+                        <li class="menu-element ">
+                            <a href="#" class="imgWrap"><img src="assets/images/salat.webp" alt="salads"></a>
+                            <h3><span class="product-name">Салаты</span></h3>
+                        </li>
+                    </ol>
+           
            </div>
 
 
@@ -188,12 +184,12 @@
             </div>
         </section>
         
-        <section id="events" class="events">
+        <section id="stock" class="events">
             <h1>Акции</h1>
 
             <div class="list-events wrapper-stocks">
 
-                <div class="events-box imgWrap-w">
+                <div class="events-box imgWrap-w w">
                     <span class="badge-sale">
                         <p>Скидка 10%</p>
                     </span>
@@ -218,7 +214,7 @@
 
             <div class="list-events wrapper-stocks">
 
-                <div class="events-box imgWrap-w">
+                <div class="events-box imgWrap-w w">
                     <span class="badge-sale">
                         <p>27 января</p>
                     </span>
@@ -254,9 +250,9 @@
         <section id="events" class="events">
             <h1>Наши заведения</h1>
 
-            <div class="list-events wrapper-stocks">
+            <div class="list-events wrapper-stocks ">
 
-                <div class="events-box imgWrap-w">
+                <div class="events-box imgWrap-w w">
                     <span class="badge-sale">
                         <p>Открыт еще 1 ч 20 мин</p>
                     </span>
@@ -291,18 +287,18 @@
 
 
     </main>
-    <footer>
+    <footer id="FAQ">
 
 
 
         <div class="footer">
 
             <section class="top-line">
-                <address class="contact">
-                    <a href="tel:+0123456790">+0 (123) 456 78-90</a>
-                    <span class="time-work">
-                        <p>Прием заказов с 10:00 до 22:40</p>
-                    </span>
+                <address class="address-footer">
+                     <div class="contact-footer ">
+                            <a href="tel:+01234567890">+0 (123) 456 78-90 </a>
+                            <time datetime="" class="" >Прием заказов с <span class="span-time">10:00 до 22:40</span></time>
+                        </div>
 
                 </address>
                 <div>
@@ -316,8 +312,8 @@
                 <div id="logo2" class="logo2">
                     <a href="#"><img class="logo-img" src="assets/Container-logo.svg" alt="RestoApp"></a>
                 </div>
-                <nav>
-                    <ul class="footer-menu">
+                <nav class="navMenu colortext">
+                    <ul>
                             <li><a href="#menu">Меню </a></li>
                             <li><a href="#stocks">Акции</a></li>
                             <li><a href="#">О нас</a></li>
@@ -333,7 +329,7 @@
 
             <section class="bottom-line">
                 <div id="ps" class="ps">Copyright 2024</div>
-                <nav>
+                <nav class="navMenu">
                     <ul class="footer-menu2">
                         <li><a href="#">Условия оплаты, получения и возврата </a></li>
                         <li><a href="#">Политика обработки персональных данных</a></li>
@@ -349,7 +345,7 @@
 
         </div>
         <hr>
-        <div class="PREAX">Макет по приколу украден со стажировки <a href="">PREAX</a></div>
+        <div class="PREAX">Макет со стажировки <a href="#">PREAX</a></div>
 
     </footer>
  <script src="/scripts/main.js"></script>
