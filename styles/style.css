@@ -11,6 +11,12 @@ body {
     padding: auto;
     width: 100%;
 }
+.section-title {
+   
+    min-width: 1440px;
+    margin: 25px 25px;
+    font-size: 40px;
+}
 
 .top-button {
   position: fixed;
@@ -48,10 +54,6 @@ section {
     padding: auto;
 }
 
-h1 {
-    font-size: 40px;
-    align-items: flex-start;
-}
 
 /* начало стилей header */
 #delivery {
