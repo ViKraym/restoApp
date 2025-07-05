@@ -12,8 +12,8 @@ body {
     width: 100%;
 }
 .section-title {
-   
-    min-width: 1440px;
+    text-align: start;
+    min-width: 1360px;
     margin: 25px 25px;
     font-size: 40px;
 }
@@ -40,6 +40,29 @@ border-radius: 5px;
     font-size: 22px;
 }
 
+.back-button {
+  position: fixed;
+bottom: 40px;
+right: 90px;
+width: 40px;
+height: 40px;
+color: black;
+background-color: #F9C201;
+display: inline;
+text-align: center;
+border-radius: 5px;
+}
+
+.back-button img {
+    padding: 3px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -47,11 +70,17 @@ main{
     min-width: 1440px;
 }
 
+ 
 
+.gorizontal-align {
+  min-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 
-section {
-    margin: auto;
-    padding: auto;
 }
 
 
@@ -238,6 +267,14 @@ a {
     
 }
 
+.list-menu-box{
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
 .list-menu-box ol{
     display: flex;
    flex-direction: row;
@@ -271,14 +308,23 @@ a {
 }
 
 .list-popular{
-    
+    text-align: start;
     white-space: nowrap;
 }
 
 /* конец стилей секции menu */
 
 /* начало стилей секции events */
+
+.new-product {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
 .list-new-product{
+    text-align: start;
     white-space: nowrap;
     margin: 0;
     padding: 0;
@@ -486,7 +532,7 @@ main img {
 
 
 .list-events {
-   
+   text-align: start;
     
 
 }
